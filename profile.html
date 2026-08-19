@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>StudentHub - Profile & Settings</title>
+
+</head>
+
+
+<body>
+
+
+<div class="layout">
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+
+        <div class="logo">
+            STUDENTHUB
+        </div>
+
+
+        <div class="portal">
+            Student Portal
+        </div>
+
+
+        <nav class="menu">
+
+
+            <a href="dashboard.html">
+                ▦ &nbsp; Dashboard
+            </a>
+
+
+            <a href="a.html">
+                ◇ &nbsp; Announcements
+            </a>
+
+
+            <a href="timetable.html">
+                ▣ &nbsp; Courses &amp; Timetable
+            </a>
+
+
+            <a href="attendance.html">
+                ✓ &nbsp; Attendance
+            </a>
+
+
+            <a href="results.html">
+                ◇ &nbsp; Results
+            </a>
+
+
+            <a href="materials.html">
+                ▤ &nbsp; Study Resources
+            </a>
+
+
+            <a href="events.html">
+                ☆ &nbsp; Events
+            </a>
+
+
+            <a href="contact.html">
+                ◎ &nbsp; Support
+            </a>
+
+
+            <a
+                href="profile.html"
+                class="active"
+            >
+                ♙ &nbsp; Profile &amp; Settings
+            </a>
+
+
+        </nav>
+
+
+        <!-- USER INFORMATION -->
+
+        <div class="user">
+
+
+            <strong id="sidebarName">
+                Student
+            </strong>
+
+
+            <br>
+
+
+            <small id="sidebarEmail">
+                student@example.com
+            </small>
+
+
+            <br><br>
+
+
+            <a href="index.html">
+                ↪ &nbsp; Sign out
+            </a>
+
+
+        </div>
+
+
+    </aside>
+
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="content">
+
+
+        <div class="page-label">
+            ACCOUNT
+        </div>
+
+
+        <h1>
+            Profile &amp; Settings
+        </h1>
+
+
+        <p class="description">
+            Your details and notification preferences.
+        </p>
+
+
+
+        <!-- PROFILE CARD -->
+
+        <section class="profile-card">
+
+
+            <!-- PROFILE HEADER -->
+
+            <div class="profile-header">
+
+
+                <div class="avatar" id="avatar">
+                    S
+                </div>
+
+
+                <div class="profile-info">
+
+
+                    <h2 id="profileName">
+                        Student
+                    </h2>
+
+
+                    <p>
+
+                        <span id="profileEmail">
+                            student@example.com
+                        </span>
+
+                        · Student
+
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- PROFILE DETAILS -->
+
+            <div class="profile-details">
+
+
+                <div class="form-group">
+
+
+                    <label for="enrollment">
+                        ENROLLMENT NUMBER
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="enrollment"
+                        placeholder=""
+                    >
+
+
+                </div>
+
+
+
+                <div class="form-group">
+
+
+                    <label for="department">
+                        DEPARTMENT
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="department"
+                        placeholder=""
+                    >
+
+
+                </div>
+
+
+
+                <div class="form-group">
+
+
+                    <label for="semester">
+                        SEMESTER
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="semester"
+                        placeholder=""
+                    >
+
+
+                </div>
+
+
+
+                <div class="form-group">
+
+
+                    <label for="phone">
+                        PHONE
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="phone"
+                        placeholder=""
+                    >
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- NOTIFICATIONS -->
+
+        <section class="notification-card">
+
+
+            <div class="section-title">
+                NOTIFICATIONS
+            </div>
+
+
+
+            <!-- NEW ANNOUNCEMENTS -->
+
+            <div class="notification-row">
+
+
+                <span>
+                    New announcements
+                </span>
+
+
+                <label class="switch">
+
+
+                    <input
+                        type="checkbox"
+                        id="announcementToggle"
+                        checked
+                    >
+
+
+                    <span class="slider"></span>
+
+
+                </label>
+
+
+            </div>
+
+
+
+            <!-- UPCOMING EVENTS -->
+
+            <div class="notification-row">
+
+
+                <span>
+                    Upcoming events
+                </span>
+
+
+                <label class="switch">
+
+
+                    <input
+                        type="checkbox"
+                        id="eventToggle"
+                        checked
+                    >
+
+
+                    <span class="slider"></span>
+
+
+                </label>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- SAVE BUTTON -->
+
+        <button
+            type="button"
+            class="save-btn"
+            id="saveBtn"
+        >
+            Save changes
+        </button>
+
+
+    </main>
+
+
+</div>
+
+
+
+<script>
+
+
+    // Get registered student information
+
+    let name =
+        localStorage.getItem("studentName");
+
+
+    let email =
+        localStorage.getItem("studentEmail");
+
+
+
+    // Display student name
+
+    if (name) {
+
+        document.getElementById(
+            "sidebarName"
+        ).textContent = name;
+
+
+        document.getElementById(
+            "profileName"
+        ).textContent = name;
+
+
+        // First letter for avatar
+
+        document.getElementById(
+            "avatar"
+        ).textContent =
+            name.charAt(0).toUpperCase();
+
+    }
+
+
+
+    // Display student email
+
+    if (email) {
+
+        document.getElementById(
+            "sidebarEmail"
+        ).textContent = email;
+
+
+        document.getElementById(
+            "profileEmail"
+        ).textContent = email;
+
+    }
+
+
+
+    // Load saved profile information
+
+    document.getElementById(
+        "enrollment"
+    ).value =
+        localStorage.getItem("enrollment") || "";
+
+
+    document.getElementById(
+        "department"
+    ).value =
+        localStorage.getItem("department") || "";
+
+
+    document.getElementById(
+        "semester"
+    ).value =
+        localStorage.getItem("semester") || "";
+
+
+    document.getElementById(
+        "phone"
+    ).value =
+        localStorage.getItem("phone") || "";
+
+
+
+    // Load notification settings
+
+    let announcements =
+        localStorage.getItem("announcementNotifications");
+
+
+    let events =
+        localStorage.getItem("eventNotifications");
+
+
+    if (announcements !== null) {
+
+        document.getElementById(
+            "announcementToggle"
+        ).checked =
+            announcements === "true";
+
+    }
+
+
+    if (events !== null) {
+
+        document.getElementById(
+            "eventToggle"
+        ).checked =
+            events === "true";
+
+    }
+
+
+
+    // Save changes
+
+    document.getElementById(
+        "saveBtn"
+    ).addEventListener(
+        "click",
+        function() {
+
+
+            localStorage.setItem(
+                "enrollment",
+                document.getElementById(
+                    "enrollment"
+                ).value
+            );
+
+
+            localStorage.setItem(
+                "department",
+                document.getElementById(
+                    "department"
+                ).value
+            );
+
+
+            localStorage.setItem(
+                "semester",
+                document.getElementById(
+                    "semester"
+                ).value
+            );
+
+
+            localStorage.setItem(
+                "phone",
+                document.getElementById(
+                    "phone"
+                ).value
+            );
+
+
+            localStorage.setItem(
+                "announcementNotifications",
+                document.getElementById(
+                    "announcementToggle"
+                ).checked
+            );
+
+
+            localStorage.setItem(
+                "eventNotifications",
+                document.getElementById(
+                    "eventToggle"
+                ).checked
+            );
+
+
+            alert(
+                "Profile changes saved successfully."
+            );
+
+        }
+    );
+
+
+</script>
+
+
+</body>
+
+</html>

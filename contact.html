@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>StudentHub - Support & Complaints</title>
+
+</head>
+
+
+<body>
+
+
+<div class="layout">
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+
+        <div class="logo">
+            STUDENTHUB
+        </div>
+
+
+        <div class="portal">
+            Student Portal
+        </div>
+
+
+        <nav class="menu">
+
+
+            <a href="dashboard.html">
+                ▦ &nbsp; Dashboard
+            </a>
+
+
+            <a href="announcements.html">
+                ◇ &nbsp; Announcements
+            </a>
+
+
+            <a href="timetable.html">
+                ▣ &nbsp; Courses &amp; Timetable
+            </a>
+
+
+            <a href="attendance.html">
+                ✓ &nbsp; Attendance
+            </a>
+
+
+            <a href="results.html">
+                ◇ &nbsp; Results
+            </a>
+
+
+            <a href="materials.html">
+                ▤ &nbsp; Study Resources
+            </a>
+
+
+            <a href="events.html">
+                ☆ &nbsp; Events
+            </a>
+
+
+            <a
+                href="contact.html"
+                class="active"
+            >
+                ◎ &nbsp; Support
+            </a>
+
+
+            <a href="profile.html">
+                ♙ &nbsp; Profile &amp; Settings
+            </a>
+
+
+        </nav>
+
+
+        <!-- USER INFORMATION -->
+
+        <div class="user">
+
+
+            <strong id="sidebarName">
+                Student
+            </strong>
+
+
+            <br>
+
+
+            <small id="sidebarEmail">
+                student@example.com
+            </small>
+
+
+            <br><br>
+
+
+            <a href="index.html">
+                ↪ &nbsp; Sign out
+            </a>
+
+
+        </div>
+
+
+    </aside>
+
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="content">
+
+
+        <div class="page-label">
+            HELP
+        </div>
+
+
+        <h1>
+            Support &amp; Complaints
+        </h1>
+
+
+        <p class="description">
+            Raise an issue about attendance, results or portal access.
+            Faculty will review and respond.
+        </p>
+
+
+
+        <!-- SUPPORT FORM -->
+
+        <section class="support-form">
+
+
+            <form id="supportForm">
+
+
+                <!-- SUBJECT -->
+
+                <div class="form-group">
+
+
+                    <label for="subject">
+                        SUBJECT
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        value="Attendance not updated for CS201"
+                        placeholder="Enter subject"
+                        required
+                    >
+
+
+                </div>
+
+
+
+                <!-- CATEGORY -->
+
+                <div class="form-group">
+
+
+                    <label for="category">
+                        CATEGORY
+                    </label>
+
+
+                    <select
+                        id="category"
+                        name="category"
+                    >
+
+                        <option value="academic">
+                            academic
+                        </option>
+
+                        <option value="attendance">
+                            attendance
+                        </option>
+
+                        <option value="results">
+                            results
+                        </option>
+
+                        <option value="portal">
+                            portal access
+                        </option>
+
+                        <option value="other">
+                            other
+                        </option>
+
+                    </select>
+
+
+                </div>
+
+
+
+                <!-- DETAILS -->
+
+                <div class="form-group">
+
+
+                    <label for="details">
+                        DETAILS
+                    </label>
+
+
+                    <textarea
+                        id="details"
+                        name="details"
+                        placeholder="Describe what happened..."
+                        required
+                    ></textarea>
+
+
+                </div>
+
+
+
+                <!-- SUBMIT -->
+
+                <button
+                    type="submit"
+                    class="submit-btn"
+                >
+                    Submit request
+                </button>
+
+
+            </form>
+
+
+        </section>
+
+
+
+        <!-- MY REQUESTS -->
+
+        <section class="requests">
+
+
+            <div class="section-title">
+                MY REQUESTS
+            </div>
+
+
+
+            <!-- REQUEST 1 -->
+
+            <div class="request">
+
+
+                <div class="request-content">
+
+
+                    <h2>
+                        Attendance not updated for CS205 lab
+                    </h2>
+
+
+                    <p>
+                        I attended the lab sessions on 4 and 7 August
+                        but both are marked absent in the portal.
+                        Please verify with the lab register.
+                    </p>
+
+
+                </div>
+
+
+                <span class="status open">
+                    OPEN
+                </span>
+
+
+            </div>
+
+
+
+            <!-- REQUEST 2 -->
+
+            <div class="request">
+
+
+                <div class="request-content">
+
+
+                    <h2>
+                        Internal 1 marks missing for DBMS
+                    </h2>
+
+
+                    <p>
+                        My CS203 internal 1 marks are not visible
+                        while classmates can see theirs.
+                        Requesting a check.
+                    </p>
+
+
+                    <div class="response">
+
+                        Checking with the examination cell,
+                        expect an update in two working days.
+
+                    </div>
+
+
+                </div>
+
+
+                <span class="status review">
+                    IN REVIEW
+                </span>
+
+
+            </div>
+
+
+
+            <!-- REQUEST 3 -->
+
+            <div class="request">
+
+
+                <div class="request-content">
+
+
+                    <h2>
+                        Unable to open shared slide deck
+                    </h2>
+
+
+                    <p>
+                        The normalization slide deck link returns
+                        an error when opened from the resources page
+                        on mobile.
+                    </p>
+
+
+                    <div class="response">
+
+                        Link has been re-uploaded and is working now.
+
+                    </div>
+
+
+                </div>
+
+
+                <span class="status resolved">
+                    RESOLVED
+                </span>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+</div>
+
+
+
+<!-- STUDENT INFORMATION + FORM -->
+
+<script>
+
+
+    // Get registered student information
+
+    let name =
+        localStorage.getItem("studentName");
+
+
+    let email =
+        localStorage.getItem("studentEmail");
+
+
+    // Display student name
+
+    if (name) {
+
+        document.getElementById(
+            "sidebarName"
+        ).textContent = name;
+
+    }
+
+
+    // Display student email
+
+    if (email) {
+
+        document.getElementById(
+            "sidebarEmail"
+        ).textContent = email;
+
+    }
+
+
+
+    // Handle support form submission
+
+    document.getElementById(
+        "supportForm"
+    ).addEventListener(
+        "submit",
+        function(event) {
+
+            event.preventDefault();
+
+            alert(
+                "Your support request has been submitted successfully."
+            );
+
+            this.reset();
+
+        }
+    );
+
+
+</script>
+
+
+</body>
+
+</html>

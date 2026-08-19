@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>StudentHub - Dashboard</title>
+
+<body>
+
+
+<div class="layout">
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            STUDENTHUB
+        </div>
+
+        <div class="portal">
+            Student Portal
+        </div>
+
+
+        <nav class="menu">
+
+            <a
+                href="dashboard.html"
+                class="active"
+            >
+                ▦ &nbsp; Dashboard
+            </a>
+
+            <a href="announcements.html">
+                ◇ &nbsp; Announcements
+            </a>
+
+            <a href="timetable.html">
+                ▣ &nbsp; Courses &amp; Timetable
+            </a>
+
+            <a href="attendance.html">
+                ✓ &nbsp; Attendance
+            </a>
+
+            <a href="results.html">
+                ◇ &nbsp; Results
+            </a>
+
+            <a href="materials.html">
+                ▤ &nbsp; Study Resources
+            </a>
+
+            <a href="events.html">
+                ☆ &nbsp; Events
+            </a>
+
+            <a href="contact.html">
+                ◎ &nbsp; Support
+            </a>
+
+            <a href="profile.html">
+                ♙ &nbsp; Profile &amp; Settings
+            </a>
+
+        </nav>
+
+
+        <div class="user">
+
+            <strong id="sidebarName">
+                Student
+            </strong>
+
+            <br>
+
+            <small id="sidebarEmail">
+                student@example.com
+            </small>
+
+            <br><br>
+
+            <a href="index.html">
+                ↪ Sign out
+            </a>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="content">
+
+
+        <div class="student-label">
+            STUDENT
+        </div>
+
+
+        <h1>
+            Welcome,
+            <span id="studentName">
+                Student
+            </span>
+        </h1>
+
+
+        <p class="description">
+
+            Your academic snapshot for this semester —
+            attendance, performance, and what's coming next.
+
+        </p>
+
+
+
+        <!-- CARDS -->
+
+        <section class="cards">
+
+
+            <div class="card">
+
+                <div class="card-title">
+                    ATTENDANCE
+                </div>
+
+                <div class="number">
+                    84%
+                </div>
+
+                <div class="small">
+                    116 of 138 classes
+                </div>
+
+            </div>
+
+
+
+            <div class="card">
+
+                <div class="card-title">
+                    AVERAGE SCORE
+                </div>
+
+                <div class="number">
+                    33
+                </div>
+
+                <div class="small">
+                    7 assessments recorded
+                </div>
+
+            </div>
+
+
+
+            <div class="card">
+
+                <div class="card-title">
+                    UPCOMING EVENTS
+                </div>
+
+                <div class="number">
+                    4
+                </div>
+
+                <div class="small">
+                    Campus calendar
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- ANNOUNCEMENTS -->
+
+        <section class="section">
+
+            <div class="section-title">
+
+                LATEST ANNOUNCEMENTS
+
+            </div>
+
+
+            <div class="announcement">
+
+                <strong>
+                    Mid-semester examination timetable released
+                </strong>
+
+                <span>
+                    Exam · 2026-08-12
+                </span>
+
+            </div>
+
+
+            <div class="announcement">
+
+                <strong>
+                    FDSA Internal 2 syllabus
+                </strong>
+
+                <span>
+                    Academic · 2026-08-11
+                </span>
+
+            </div>
+
+
+            <div class="announcement">
+
+                <strong>
+                    WDF lab submission deadline extended
+                </strong>
+
+                <span>
+                    Academic · 2026-08-10
+                </span>
+
+            </div>
+
+
+            <div class="announcement">
+
+                <strong>
+                    Library timings revised for August
+                </strong>
+
+                <span>
+                    General · 2026-08-08
+                </span>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+</div>
+
+
+
+<script>
+
+    // Get registered student information
+
+    let name =
+        localStorage.getItem("studentName");
+
+    let email =
+        localStorage.getItem("studentEmail");
+
+
+    // Display name
+
+    if (name) {
+
+        document.getElementById(
+            "studentName"
+        ).textContent = name;
+
+
+        document.getElementById(
+            "sidebarName"
+        ).textContent = name;
+
+    }
+
+
+    // Display email
+
+    if (email) {
+
+        document.getElementById(
+            "sidebarEmail"
+        ).textContent = email;
+
+    }
+
+</script>
+
+
+</body>
+
+</html>

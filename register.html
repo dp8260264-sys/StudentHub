@@ -65,6 +65,10 @@
             align-items: center;
         }
 
+        .terms input {
+            width: auto;
+        }
+
         .terms label {
             margin: 0;
             font-weight: normal;
@@ -78,24 +82,36 @@
         }
 
         .invalid {
-            border: 2px solid #d32f2f;
+            border: 2px solid #d32f2f !important;
         }
 
         .valid {
-            border: 2px solid #188038;
+            border: 2px solid #188038 !important;
+        }
+
+        fieldset.form-group {
+            padding: 10px;
+        }
+
+        fieldset.form-group legend {
+            font-weight: bold;
+            padding: 0 5px;
         }
     </style>
 </head>
 
 <body>
 
+    <!-- Header -->
     <header>
         <h2>STUDENTHUB</h2>
         <p>Student Portal</p>
     </header>
 
+
     <main>
 
+        <!-- Breadcrumb -->
         <nav aria-label="Breadcrumb">
             <ol>
                 <li>
@@ -108,6 +124,8 @@
             </ol>
         </nav>
 
+
+        <!-- Page Heading -->
         <header>
             <p>ACCOUNT</p>
 
@@ -118,15 +136,26 @@
             </p>
         </header>
 
+
+        <!-- Registration Section -->
         <section aria-labelledby="register-heading">
 
             <h2 id="register-heading">
                 Registration Form
             </h2>
 
+
+            <!-- IMPORTANT:
+                 JavaScript validation is used,
+                 therefore novalidate is kept. -->
+
             <form id="registrationForm" novalidate>
 
-                <!-- Full Name -->
+
+                <!-- =========================
+                     FULL NAME
+                ========================== -->
+
                 <div class="form-group">
 
                     <label for="full-name">
@@ -138,6 +167,7 @@
                         id="full-name"
                         name="name"
                         type="text"
+                        placeholder="Enter your full name"
                         aria-describedby="name-error"
                         required
                     >
@@ -151,7 +181,10 @@
                 </div>
 
 
-                <!-- Email -->
+                <!-- =========================
+                     EMAIL
+                ========================== -->
+
                 <div class="form-group">
 
                     <label for="register-email">
@@ -163,6 +196,7 @@
                         id="register-email"
                         name="email"
                         type="email"
+                        placeholder="example@gmail.com"
                         aria-describedby="email-error"
                         required
                     >
@@ -176,7 +210,10 @@
                 </div>
 
 
-                <!-- Mobile -->
+                <!-- =========================
+                     MOBILE NUMBER
+                ========================== -->
+
                 <div class="form-group">
 
                     <label for="mobile">
@@ -203,7 +240,10 @@
                 </div>
 
 
-                <!-- Password -->
+                <!-- =========================
+                     PASSWORD
+                ========================== -->
+
                 <div class="form-group">
 
                     <label for="register-password">
@@ -215,6 +255,7 @@
                         id="register-password"
                         name="password"
                         type="password"
+                        placeholder="Enter your password"
                         aria-describedby="password-error password-strength"
                         required
                     >
@@ -234,7 +275,10 @@
                 </div>
 
 
-                <!-- Confirm Password -->
+                <!-- =========================
+                     CONFIRM PASSWORD
+                ========================== -->
+
                 <div class="form-group">
 
                     <label for="confirm-password">
@@ -246,6 +290,7 @@
                         id="confirm-password"
                         name="confirmPassword"
                         type="password"
+                        placeholder="Re-enter your password"
                         aria-describedby="confirm-error"
                         required
                     >
@@ -259,7 +304,10 @@
                 </div>
 
 
-                <!-- Course -->
+                <!-- =========================
+                     COURSE
+                ========================== -->
+
                 <div class="form-group">
 
                     <label for="course">
@@ -303,7 +351,10 @@
                 </div>
 
 
-                <!-- Year -->
+                <!-- =========================
+                     YEAR
+                ========================== -->
+
                 <div class="form-group">
 
                     <label for="year">
@@ -347,8 +398,13 @@
                 </div>
 
 
-                <!-- Gender -->
-                <fieldset class="form-group">
+                <!-- =========================
+                     GENDER
+                ========================== -->
+
+                <fieldset
+                    class="form-group"
+                    aria-describedby="gender-error">
 
                     <legend>
                         Gender
@@ -391,7 +447,10 @@
                 </fieldset>
 
 
-                <!-- Terms -->
+                <!-- =========================
+                     TERMS AND CONDITIONS
+                ========================== -->
+
                 <div class="form-group">
 
                     <div class="terms">
@@ -418,7 +477,10 @@
                 </div>
 
 
-                <!-- Submit -->
+                <!-- =========================
+                     SUBMIT BUTTON
+                ========================== -->
+
                 <p>
 
                     <button type="submit">
@@ -427,14 +489,21 @@
 
                 </p>
 
+
+                <!-- Success Message -->
+
                 <div
                     id="success-message"
                     class="success-message"
                     aria-live="polite">
                 </div>
 
+
+                <!-- Login -->
+
                 <p>
                     Already have an account?
+
                     <a href="login.html">
                         Login
                     </a>
@@ -447,6 +516,8 @@
     </main>
 
 
+    <!-- Footer -->
+
     <footer>
 
         <p>
@@ -455,6 +526,8 @@
 
     </footer>
 
+
+    <!-- JavaScript -->
 
     <script src="js/app.js"></script>
 

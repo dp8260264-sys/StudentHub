@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Shah",
+    "rollNumber": "CE202601",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "A",
+    "email": "aarav.shah@student.edu",
+    "skills": [
+      "C++",
+      "DSA",
+      "Web Development"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Aanya Patel",
+    "rollNumber": "CE202602",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "A",
+    "email": "aanya.patel@student.edu",
+    "skills": [
+      "Java",
+      "SQL",
+      "UI Design"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dev Mehta",
+    "rollNumber": "CE202603",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "A",
+    "email": "dev.mehta@student.edu",
+    "skills": [
+      "Python",
+      "Data Analysis",
+      "Git"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Diya Trivedi",
+    "rollNumber": "CE202604",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "A",
+    "email": "diya.trivedi@student.edu",
+    "skills": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Ishaan Desai",
+    "rollNumber": "CE202605",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "B",
+    "email": "ishaan.desai@student.edu",
+    "skills": [
+      "C++",
+      "Algorithms",
+      "GitHub"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Kavya Joshi",
+    "rollNumber": "CE202606",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "B",
+    "email": "kavya.joshi@student.edu",
+    "skills": [
+      "Python",
+      "Flask",
+      "SQL"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Krish Patel",
+    "rollNumber": "CE202607",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "B",
+    "email": "krish.patel@student.edu",
+    "skills": [
+      "Java",
+      "OOP",
+      "DSA"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Mahi Shah",
+    "rollNumber": "CE202608",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "B",
+    "email": "mahi.shah@student.edu",
+    "skills": [
+      "UI/UX",
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Neel Desai",
+    "rollNumber": "CE202609",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "C",
+    "email": "neel.desai@student.edu",
+    "skills": [
+      "Cybersecurity",
+      "Linux",
+      "Networking"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Nisha Patel",
+    "rollNumber": "CE202610",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "C",
+    "email": "nisha.patel@student.edu",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Git"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Parth Shah",
+    "rollNumber": "CE202611",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "C",
+    "email": "parth.shah@student.edu",
+    "skills": [
+      "C++",
+      "Competitive Programming",
+      "DSA"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Riya Mehta",
+    "rollNumber": "CE202612",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "C",
+    "email": "riya.mehta@student.edu",
+    "skills": [
+      "Python",
+      "AI",
+      "Data Analysis"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Rohan Patel",
+    "rollNumber": "CE202613",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "D",
+    "email": "rohan.patel@student.edu",
+    "skills": [
+      "PHP",
+      "MySQL",
+      "Web Development"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Saanvi Shah",
+    "rollNumber": "CE202614",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "D",
+    "email": "saanvi.shah@student.edu",
+    "skills": [
+      "Java",
+      "Database",
+      "OOP"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Ved Trivedi",
+    "rollNumber": "CE202615",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "D",
+    "email": "ved.trivedi@student.edu",
+    "skills": [
+      "Networking",
+      "Cisco Packet Tracer",
+      "Python"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Yash Joshi",
+    "rollNumber": "CE202616",
+    "program": "B.Tech Computer Engineering",
+    "semester": 3,
+    "division": "D",
+    "email": "yash.joshi@student.edu",
+    "skills": [
+      "C++",
+      "Web Development",
+      "Problem Solving"
+    ]
+  }
+]

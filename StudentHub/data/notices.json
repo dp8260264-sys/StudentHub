@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "Mid-Semester Examination Schedule Published",
+    "category": "Examination",
+    "date": "2026-09-30",
+    "priority": "High",
+    "description": "The mid-semester examination schedule has been published. Students should verify course dates and reporting times."
+  },
+  {
+    "id": 2,
+    "title": "Practical Submission Guidelines",
+    "category": "Academic",
+    "date": "2026-09-29",
+    "priority": "High",
+    "description": "Students must submit practical files with correct screenshots, source code and required documentation."
+  },
+  {
+    "id": 3,
+    "title": "Student ID Card Verification",
+    "category": "Administrative",
+    "date": "2026-09-27",
+    "priority": "Normal",
+    "description": "Students are requested to verify their ID card details through the department office."
+  },
+  {
+    "id": 4,
+    "title": "Internal Assessment Marks Review",
+    "category": "Academic",
+    "date": "2026-09-25",
+    "priority": "Normal",
+    "description": "Internal assessment marks are available for review. Report discrepancies within the notified period."
+  },
+  {
+    "id": 5,
+    "title": "Campus Recruitment Orientation",
+    "category": "Placement",
+    "date": "2026-09-23",
+    "priority": "Normal",
+    "description": "Placement cell will conduct an orientation covering eligibility, registration and recruitment preparation."
+  },
+  {
+    "id": 6,
+    "title": "Library Book Renewal Reminder",
+    "category": "Library",
+    "date": "2026-09-21",
+    "priority": "Normal",
+    "description": "Students with books due for return should renew or return them before the due date."
+  },
+  {
+    "id": 7,
+    "title": "Hackathon Team Registration",
+    "category": "Event",
+    "date": "2026-09-20",
+    "priority": "High",
+    "description": "Interested students can register their teams for upcoming innovation and hackathon activities."
+  },
+  {
+    "id": 8,
+    "title": "Network Laboratory Maintenance",
+    "category": "Laboratory",
+    "date": "2026-09-18",
+    "priority": "Normal",
+    "description": "The networking laboratory will undergo scheduled maintenance during the notified maintenance window."
+  },
+  {
+    "id": 9,
+    "title": "Attendance Review Window",
+    "category": "Academic",
+    "date": "2026-09-16",
+    "priority": "High",
+    "description": "Students should review course-wise attendance and contact the department for genuine discrepancies."
+  },
+  {
+    "id": 10,
+    "title": "Cultural Club Membership Drive",
+    "category": "Student Life",
+    "date": "2026-09-14",
+    "priority": "Normal",
+    "description": "Students can register for cultural clubs and participate in upcoming campus activities."
+  },
+  {
+    "id": 11,
+    "title": "Sports Registration Open",
+    "category": "Sports",
+    "date": "2026-09-12",
+    "priority": "Normal",
+    "description": "Registrations are open for selected inter-department sports competitions."
+  },
+  {
+    "id": 12,
+    "title": "Career Development Workshop",
+    "category": "Placement",
+    "date": "2026-09-10",
+    "priority": "Normal",
+    "description": "A workshop on resume writing, communication and interview preparation will be conducted."
+  },
+  {
+    "id": 13,
+    "title": "Semester Project Topic Confirmation",
+    "category": "Academic",
+    "date": "2026-09-08",
+    "priority": "High",
+    "description": "Students must confirm their semester project topics with the concerned faculty coordinator."
+  },
+  {
+    "id": 14,
+    "title": "Cybersecurity Awareness Week",
+    "category": "Event",
+    "date": "2026-09-05",
+    "priority": "Normal",
+    "description": "A series of awareness sessions will cover digital safety, privacy and responsible internet use."
+  },
+  {
+    "id": 15,
+    "title": "Department Feedback Form",
+    "category": "General",
+    "date": "2026-09-03",
+    "priority": "Normal",
+    "description": "Students are invited to submit constructive feedback regarding academic and student support services."
+  },
+  {
+    "id": 16,
+    "title": "Updated Laboratory Timings",
+    "category": "Laboratory",
+    "date": "2026-09-01",
+    "priority": "Normal",
+    "description": "Updated laboratory access timings are available on the timetable and department notice board."
+  }
+]

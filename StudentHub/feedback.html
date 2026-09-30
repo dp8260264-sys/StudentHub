@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StudentHub responsive student portal page.">
+  <title>StudentHub - Feedback</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <header><h2>STUDENTHUB</h2><p>Student Portal</p></header>
+      <nav aria-label="Student Portal Navigation"><ul>
+        <li><a href="dashboard.html">Dashboard</a></li><li><a href="about.html">About</a></li><li><a href="announcements.html">Announcements</a></li>
+        <li><a href="timetable.html">Courses &amp; Timetable</a></li><li><a href="attendance.html">Attendance</a></li>
+        <li><a href="results.html">Results</a></li><li><a href="materials.html">Study Resources</a></li>
+        <li><a href="events.html">Events</a></li><li><a href="contact.html">Support</a></li><li><a href="feedback.html">Feedback</a></li>
+        <li><a href="profile.html">Profile &amp; Settings</a></li><li><a href="faq.html">FAQ</a></li>
+      </ul></nav>
+      <footer><p><strong>Student</strong></p><p><small>student@example.com</small></p></footer>
+    </aside>
+    <main class="content">
+      <nav aria-label="Breadcrumb"><ol><li><a href="dashboard.html">Home</a></li><li aria-current="page">Feedback</li></ol></nav>
+      <header><p>HELP</p><h1>Feedback</h1><p class="description">Tell us what works well and what could be improved.</p></header>
+      <section class="support-form" aria-labelledby="feedback-heading">
+        <h2 id="feedback-heading">Feedback form</h2>
+        <form action="#" method="post">
+          <p><label for="feedback-name">Name</label><input id="feedback-name" name="name" autocomplete="name" required></p>
+          <p><label for="feedback-type">Feedback type</label><select id="feedback-type" name="type"><option>Suggestion</option><option>Bug report</option><option>Compliment</option></select></p>
+          <p><label for="feedback-message">Message</label><textarea id="feedback-message" name="message" placeholder="Share your feedback..." required></textarea></p>
+          <p><button type="submit">Send feedback</button></p>
+        </form>
+      </section>
+    </main>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>

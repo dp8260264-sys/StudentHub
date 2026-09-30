@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Workshop",
+    "category": "Workshop",
+    "date": "2026-10-05",
+    "time": "10:00 AM",
+    "location": "Innovation Lab, Block B",
+    "description": "Hands-on session on modern frontend development and responsive design."
+  },
+  {
+    "id": 2,
+    "title": "Inter-Department Coding Challenge",
+    "category": "Academic",
+    "date": "2026-10-07",
+    "time": "02:00 PM",
+    "location": "Programming Lab 2",
+    "description": "Competitive programming challenge covering algorithms, arrays and problem solving."
+  },
+  {
+    "id": 3,
+    "title": "Navratri Cultural Evening",
+    "category": "Cultural",
+    "date": "2026-10-10",
+    "time": "06:30 PM",
+    "location": "Open Air Theatre",
+    "description": "A campus cultural evening featuring traditional music, dance and student performances."
+  },
+  {
+    "id": 4,
+    "title": "Cyber Security Awareness Seminar",
+    "category": "Academic",
+    "date": "2026-10-13",
+    "time": "11:00 AM",
+    "location": "Seminar Hall A",
+    "description": "Awareness session on phishing, passwords, privacy and safe digital practices."
+  },
+  {
+    "id": 5,
+    "title": "Inter-Department Cricket Tournament",
+    "category": "Sports",
+    "date": "2026-10-15",
+    "time": "04:00 PM",
+    "location": "Main Sports Ground",
+    "description": "Annual cricket tournament for students representing different departments."
+  },
+  {
+    "id": 6,
+    "title": "Mid-Semester Examination Briefing",
+    "category": "Exam",
+    "date": "2026-10-17",
+    "time": "12:00 PM",
+    "location": "Lecture Hall 4",
+    "description": "Important instructions, timetable guidance and examination procedures."
+  },
+  {
+    "id": 7,
+    "title": "AI and Machine Learning Guest Lecture",
+    "category": "Academic",
+    "date": "2026-10-20",
+    "time": "11:30 AM",
+    "location": "Seminar Hall B",
+    "description": "Industry guest lecture covering practical applications of AI and machine learning."
+  },
+  {
+    "id": 8,
+    "title": "Photography and Media Club Meetup",
+    "category": "Cultural",
+    "date": "2026-10-22",
+    "time": "03:30 PM",
+    "location": "Media Studio",
+    "description": "Creative meetup for students interested in photography, editing and digital media."
+  },
+  {
+    "id": 9,
+    "title": "Resume and LinkedIn Workshop",
+    "category": "Workshop",
+    "date": "2026-10-24",
+    "time": "10:30 AM",
+    "location": "Career Development Centre",
+    "description": "Practical guidance on resume writing, LinkedIn profiles and professional branding."
+  },
+  {
+    "id": 10,
+    "title": "Inter-Department Badminton Championship",
+    "category": "Sports",
+    "date": "2026-10-26",
+    "time": "04:30 PM",
+    "location": "Indoor Sports Complex",
+    "description": "Singles and doubles badminton championship for registered student participants."
+  },
+  {
+    "id": 11,
+    "title": "Database Management Lab Assessment",
+    "category": "Exam",
+    "date": "2026-10-28",
+    "time": "09:30 AM",
+    "location": "Database Laboratory",
+    "description": "Practical assessment covering SQL queries, database design and normalization."
+  },
+  {
+    "id": 12,
+    "title": "Innovation and Startup Showcase",
+    "category": "Academic",
+    "date": "2026-10-30",
+    "time": "01:00 PM",
+    "location": "Innovation Centre",
+    "description": "Student teams present software ideas, prototypes and startup concepts."
+  },
+  {
+    "id": 13,
+    "title": "Open Mic and Literary Evening",
+    "category": "Cultural",
+    "date": "2026-11-02",
+    "time": "05:30 PM",
+    "location": "Student Activity Centre",
+    "description": "An evening of poetry, storytelling, music and student performances."
+  },
+  {
+    "id": 14,
+    "title": "Git and GitHub Hands-on Workshop",
+    "category": "Workshop",
+    "date": "2026-11-04",
+    "time": "02:30 PM",
+    "location": "Computer Lab 5",
+    "description": "Practical workshop on repositories, branches, commits, pull requests and collaboration."
+  },
+  {
+    "id": 15,
+    "title": "Semester Project Review",
+    "category": "Exam",
+    "date": "2026-11-07",
+    "time": "10:00 AM",
+    "location": "Department Project Lab",
+    "description": "Review of semester projects, documentation and implementation progress."
+  },
+  {
+    "id": 16,
+    "title": "Annual Athletics Meet",
+    "category": "Sports",
+    "date": "2026-11-10",
+    "time": "08:00 AM",
+    "location": "University Stadium",
+    "description": "Track and field events conducted as part of the annual athletics meet."
+  }
+]

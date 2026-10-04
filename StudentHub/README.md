@@ -13,33 +13,6 @@ A comprehensive multi-page student portal web application built with semantic HT
 - ✅ **13+ interconnected pages** with consistent navigation
 - ✅ **Professional UI/UX** with clean typography and spacing
 
-
-## 📁 Folder Structure
-
-StudentHub/
-├── index.html (Dashboard)
-├── styles.css                 # Main responsive stylesheet
-├── css/
-│   └── style.css             # Alternative stylesheet
-│
-├── Pages:
-│   ├── dashboard.html        # Main dashboard
-│   ├── announcements.html    # Student announcements
-│   ├── timetable.html        # Class schedule & course details
-│   ├── attendance.html       # Attendance tracking
-│   ├── results.html          # Academic results
-│   ├── materials.html        # Study resources
-│   ├── events.html           # Campus events
-│   ├── profile.html          # User profile & settings
-│   ├── contact.html          # Support & contact form
-│   ├── about.html            # About page
-│   ├── faq.html              # FAQ section
-│   ├── feedback.html         # Feedback form
-│   ├── login.html            # Login page
-│   └── register.html         # Registration page
-│
-└── README.md                  # This file
-
 ## 🔑 Key Pages & Components
 
 ### **Dashboard** (`dashboard.html`)

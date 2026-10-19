@@ -1,0 +1,131 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f6fb;
+    color: #202938;
+}
+
+.container {
+    width: 94%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+h1 {
+    color: #174ea6;
+}
+
+.panel {
+    background: white;
+    padding: 22px;
+    margin: 22px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #00000012;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+button {
+    padding: 10px 16px;
+    margin-top: 14px;
+    border: 0;
+    border-radius: 5px;
+    background: #174ea6;
+    color: white;
+    cursor: pointer;
+}
+
+.danger {
+    background: #c62828;
+}
+
+.success {
+    padding: 12px;
+    background: #e3f8e8;
+    color: #17652b;
+}
+
+.error {
+    padding: 12px;
+    background: #fde8e8;
+    color: #a61b1b;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.filters input,
+.filters select {
+    flex: 1;
+    min-width: 150px;
+}
+
+.table-wrap {
+    overflow-x: auto;
+    margin-top: 18px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #dbe2ea;
+    text-align: left;
+}
+
+th {
+    background: #eaf0fa;
+}
+
+.poster {
+    width: 90px;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+td form {
+    display: inline;
+}
+
+td button {
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 96%;
+    }
+
+    .panel {
+        padding: 14px;
+    }
+}
